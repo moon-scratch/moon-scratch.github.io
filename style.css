@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 15px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.432);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+}
+.toppad {
+    padding-top: 50px;
+}
+.link {
+    color: rgb(50, 0, 116);
+    border-radius: 10px;
+    width: fit-content;
+    outline: 1px solid rgb(50, 0, 116,  0);
+    transition: all 0.3s;
+}
+.link:hover {
+    outline: 2px solid rgb(50, 0, 116,  0.4);
+    outline-offset: 3px;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.welcome > img {
+    width: 290px;
+    height: 290px;
+}
+.welcome > .text {
+    margin-left: 10px;
+}
+.welcome > .text > :nth-child(1) {
+    margin-bottom: 5px; 
+}
