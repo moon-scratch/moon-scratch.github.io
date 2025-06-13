@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 .toppad {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 .link {
     color: rgb(50, 0, 116);
@@ -44,4 +44,26 @@ a {
 }
 .welcome > .text > :nth-child(1) {
     margin-bottom: 5px; 
+}
+.places {
+    width: fit-content;
+    margin: 0 auto;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.places > li {
+    display: inline;
+}
+.places > li > a {
+    padding: 5px;
+}
+.places > li > a > img {
+    width: 40px;
+    height: 40px;
+    transition: all 0.2s;
+}
+.places > li > a > img:hover {
+    scale: 1.1;
 }
